@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://cojexdr3ycm1b" path="res://worlds.tscn" id="2_h2yge"]
 
 [node name="Main" type="Node2D" unique_id=1514846995]
+position = Vector2(1, 0)
 
 [node name="Player" parent="." unique_id=1518018701 instance=ExtResource("2_0xm2m")]
 position = Vector2(590, 605)

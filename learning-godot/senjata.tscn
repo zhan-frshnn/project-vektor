@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b111vxo48rx28"]
+
+[ext_resource type="Texture2D" uid="uid://bh2p48i7g7l6f" path="res://asset/Weapon/GUN_01_[square_frame]_01_V1.00.png" id="1_uflv4"]
+[ext_resource type="Script" uid="uid://bsimcltvcgjx4" path="res://senjata.gd" id="1_vhb2g"]
+
+[node name="Senjata" type="Node2D" unique_id=205472675]
+position = Vector2(399, 255)
+script = ExtResource("1_vhb2g")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=235513062]
+position = Vector2(9.999985, 3)
+scale = Vector2(1.6796879, 1.5234374)
+texture = ExtResource("1_uflv4")
+
+[node name="Titik Tembak" type="Marker2D" parent="." unique_id=1805121415]
+position = Vector2(299, 29)
